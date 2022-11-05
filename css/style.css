@@ -45,4 +45,50 @@ main {
 
 .main-card {
 	display: flex;
+	background-color: var(--Dark-desaturated-blue);
+	max-width: 1000px;
+	width: 100%;
+}
+
+
+.title {
+	color: white;
+	font-size: 30px;
+	font-family: bold;
+	margin: 70px 0px 30px 50px;
+	max-width: 265px;
+	font-weight: bold;
+}
+
+.highlight {
+	color: var(--Soft-violet);
+	font-size: 25px;
+}
+
+.content {
+	color: var(--Slightly-transparent-white);
+	max-width: 410px;
+	width: 70%;
+	margin-left: 50px;
+}
+
+.information {
+	display: flex;
+	margin: 70px 0px 0px 50px;
+}
+
+.info-no {
+	color: white;
+	font-size: 20px;
+	margin-right: 50px;
+	font-family: bold;
+	font-weight: bold;
+}
+
+
+.object-info {
+	color: var(--Slightly-transparent-white);
+	font-size: 15px;
+	font-family: light;
+	font-weight: 100;
 }
