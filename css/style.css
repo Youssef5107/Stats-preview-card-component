@@ -43,12 +43,14 @@ main {
 }
 
 
+
 .main-card {
 	display: flex;
 	background-color: var(--Dark-desaturated-blue);
 	max-width: 920px;
 	width: 100%;
 	height: fit-content;
+	border-radius: 7px;
 }
 
 
@@ -95,10 +97,14 @@ main {
 }
 
 
+.card-img {}
+
 
 .main-img {
 	max-width: 460px;
 	width: 100%;
+	border-radius: 7px 7px 0px 0px;
+
 }
 
 /* .img-overlayer {
@@ -121,6 +127,7 @@ main {
 
 	.card-content {
 		margin-left: 15px;
+		padding-bottom: 10px;
 	}
 
 	.title {
